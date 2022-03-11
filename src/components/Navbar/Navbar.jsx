@@ -1,15 +1,15 @@
-import React from 'react'
 import {
   AppBar,
-  Toolbar,
-  IconButton,
   Badge,
+  IconButton,
+  Toolbar,
   Typography,
 } from '@material-ui/core'
 import { ShoppingCart } from '@material-ui/icons'
+import React from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import logo from '../../assets/ecom.png'
 import useStyles from './styles'
-import { Link, useLocation } from 'react-router-dom'
 
 const Navbar = ({ totalItems }) => {
   const classes = useStyles()

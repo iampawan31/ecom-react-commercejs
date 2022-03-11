@@ -1,14 +1,13 @@
-import React from 'react'
 import {
   Card,
-  CardMedia,
-  CardContent,
   CardActions,
-  Typography,
+  CardContent,
+  CardMedia,
   IconButton,
+  Typography,
 } from '@material-ui/core'
 import { AddShoppingCart } from '@material-ui/icons'
-
+import React from 'react'
 import useStyles from './styles'
 
 const Product = ({ product, onAddToCart }) => {
